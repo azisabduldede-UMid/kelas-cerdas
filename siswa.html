@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Dashboard Siswa</title>
+  <meta charset="UTF-8">
+  <title>Dashboard Siswa - KELAS CERDAS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef4f8;
+      padding: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 14px;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .btn.pdf {
+      background: #27ae60;
+    }
+    .logout {
+      background: #e74c3c;
+      margin-top: 30px;
+      display: inline-block;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Dashboard Siswa</h1>
-<p>Selamat belajar 📘</p>
+<h1>📚 Dashboard Siswa</h1>
+<p>Selamat belajar di <b>KELAS CERDAS</b></p>
 
-<a href="index.html">Logout</a>
+<div class="card">
+  <h3>IPAS Kelas 4 – Siklus Air</h3>
+  <p>Pelajari proses terjadinya hujan, penguapan, dan aliran air.</p>
+
+  <a class="btn" href="https://youtube.com/" target="_blank">🎥 Tonton Video</a>
+  <a class="btn pdf" href="https://drive.google.com/" target="_blank">📄 Buka Modul PDF</a>
+</div>
+
+<div class="card">
+  <h3>IPAS Kelas 4 – Energi dan Perubahannya</h3>
+  <p>Mengenal berbagai bentuk energi dan perubahan energi.</p>
+
+  <a class="btn" href="https://youtube.com/" target="_blank">🎥 Tonton Video</a>
+  <a class="btn pdf" href="https://drive.google.com/" target="_blank">📄 Buka Modul PDF</a>
+</div>
+
+<a href="index.html" class="btn logout">🚪 Logout</a>
 
 </body>
 </html>
